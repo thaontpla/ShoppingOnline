@@ -36,7 +36,7 @@ public class AddToCartTest {
     }
 
     @Test
-    public void addTwoProductsSuccessfully() {
+    public void CustomerAddedTwoNewProductsSuccessfully() {
         // Thêm sản phẩm
         inventoryPageUI.buttonAddToCart(productNames.get(0)).click();
         inventoryPageUI.buttonAddToCart(productNames.get(1)).click();
@@ -64,7 +64,7 @@ public class AddToCartTest {
     }
 
     @Test
-    public void removeOneProductSuccessfully() {
+    public void CustomerRemoveOneProductSuccessfully() {
         // Thêm 2 sản phẩm vào giỏ hàng
         inventoryPageUI.buttonAddToCart(productNames.get(0)).click();
         inventoryPageUI.buttonAddToCart(productNames.get(1)).click();
